@@ -1,0 +1,33 @@
+[
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "getGameResults",
+    "outputs": [
+      {
+        "components": [
+          { "name": "timestamp", "type": "uint256" },
+          { "name": "multiplier", "type": "uint256" },
+          { "name": "result", "type": "string" }
+        ],
+        "name": "gameResults",
+        "type": "tuple[]"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      { "name": "_multiplier", "type": "uint256" },
+      { "name": "_result", "type": "string" }
+    ],
+    "name": "recordResult",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]
