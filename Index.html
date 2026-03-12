@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aviator Crash Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="game-container">
+    <h1>Aviator Crash Game</h1>
+    <div class="info">
+      <p>Balance: <span id="balance">1000</span></p>
+      <p>Bet: <input type="number" id="bet" value="10" min="1" /></p>
+      <button id="play-btn">Play</button>
+      <select id="hash-select">
+        <option value="SHA-256">SHA-256</option>
+        <option value="SHA-1">SHA-1</option>
+        <option value="MD5">MD5</option>
+      </select>
+      <p id="hash-display">Selected Hash: SHA-256</p>
+    </div>
+    <div class="multiplier-display">
+      <p>Multiplier: <span id="multiplier">1.00</span></p>
+    </div>
+    <div class="result">
+      <p id="result"></p>
+    </div>
+    <canvas id="game-canvas" width="400" height="200"></canvas>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
