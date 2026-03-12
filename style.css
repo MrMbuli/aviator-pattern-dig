@@ -1,0 +1,34 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.game-container {
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+h1 {
+  color: #00ffcc;
+}
+
+.info, .multiplier-display, .result {
+  margin: 10px 0;
+}
+
+canvas {
+  background-color: #000;
+  margin: 20px auto;
+  display: block;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+}
